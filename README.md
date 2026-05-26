@@ -25,14 +25,5 @@ Aplikasi ini dibangun menggunakan arsitektur Model-View-Controller (MVC) dengan 
 3. system: Berisi core framework CodeIgniter.
 4. vendor: Lokasi library yang diinstal melalui Composer.
 
-## Instalasi dan Konfigurasi
-Untuk menjalankan proyek ini di lingkungan lokal, ikuti langkah-langkah berikut:
-1. Pastikan server web (seperti Apache) dan PHP (minimal versi 5.3.7) telah terpasang.
-2. Salin seluruh direktori proyek ke dalam folder web root (misalnya htdocs).
-3. Buat basis data baru di MySQL dan impor berkas daftar_ku.sql yang tersedia di root proyek.
-4. Sesuaikan konfigurasi basis data pada file application/config/database.php.
-5. Pastikan konfigurasi base_url pada application/config/config.php sudah sesuai dengan alamat lokal Anda.
-6. Akses aplikasi melalui peramban web.
-
 ## Penutup
 Sistem ini terus dikembangkan untuk memenuhi kebutuhan operasional pendidikan di Khoiru Ummah dengan mengutamakan kemudahan penggunaan dan integritas data.
